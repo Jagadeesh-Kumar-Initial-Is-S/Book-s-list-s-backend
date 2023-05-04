@@ -1,6 +1,6 @@
 // models/Book.js
 
-const moongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const BookSchema = new mongoose.Schema({
     title: {
